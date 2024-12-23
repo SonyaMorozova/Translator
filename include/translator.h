@@ -104,7 +104,7 @@ public:
         return stack.top();
     }
 
-    string get_infox() const { return infix; }
+    string get_infix() const { return infix; }
 
     string get_postfix() const {
         string postf;
