@@ -15,7 +15,7 @@ TEST(Calculate, can_get_postfix) {
 
 TEST(Calculate, can_get_infix) {
 	Translator translator("((6*2-89*9)+2+3)*11");
-	ASSERT_EQ(translator.get_infox(), "((6*2-89*9)+2+3)*11");
+	ASSERT_EQ(translator.get_infix(), "((6*2-89*9)+2+3)*11");
 }
 
 TEST(Calculate, cant_division_by_zero) {
