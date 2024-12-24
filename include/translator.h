@@ -75,11 +75,11 @@ public:
                 }
                 stack.pop();
             }
-            else if (is_number(stack.top()) && isdigit(token[0])) {
+            /*else if (is_number(stack.top()) && isdigit(token[0])) {
                 string curr = stack.top() + token[0];
                 stack.pop();
                 stack.push(curr);
-            }
+            }*/
         }
         while (!stack.empty()) {
             postfix.push_back(stack.top());
